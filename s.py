@@ -23,4 +23,7 @@ def all_clear():
 
 while True:
    all_clear()
-   train_coming()  
+   train_coming()
+   command = input("Type x and hit enter if you want to stop the signals: ")
+   if command == "x":
+      exit()
